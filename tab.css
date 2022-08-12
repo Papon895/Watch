@@ -1,0 +1,145 @@
+header .banner h1 {
+  font-size: 4.5rem;
+}
+.container {
+  max-width: 87%;
+  margin: 0 auto;
+}
+header #page-list {
+  display: none;
+}
+
+header .banner {
+  padding-top: 20rem;
+}
+header #nav-icon {
+  color: #fff;
+  font-size: 2rem;
+  display: block;
+  z-index: 100;
+  cursor: pointer;
+}
+header .nav-sec {
+  padding: 1rem 3.5rem;
+}
+body {
+  position: relative;
+}
+header #nav-bar {
+  padding-top: 2rem;
+  width: 26rem;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  position: fixed;
+  left: -26rem;
+  top: 0;
+  bottom: 0;
+  display: block;
+  justify-content: flex-start;
+  align-items: initial;
+  z-index: 100;
+  transition: 0.5s;
+  /* overflow-y: auto; */
+}
+header #nav-bar li {
+  line-height: 4rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+}
+header #page-list li {
+  color: #fff;
+}
+header #page-list {
+  background: transparent;
+  left: 2rem;
+  top: 50%;
+  z-index: 1000;
+}
+header #page-list li:hover {
+  color: rgb(192, 192, 192);
+}
+header {
+  position: relative;
+}
+header #layer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  /* z-index: 500; */
+}
+/* banner */
+header .banner h1 {
+  line-height: 5.4rem;
+}
+
+/* srction 1 */
+#section-1 .container {
+  flex-direction: column;
+}
+#section-1 .video,
+#section-1 .text-area {
+  width: 100%;
+}
+#section-1 .text-area .get-start {
+  margin-bottom: 13rem;
+}
+/* section 2  */
+#section-2 .course-blog1 {
+  width: 100%;
+}
+#section-2 .course-blog2 {
+  width: 100%;
+}
+#section-2 .course-sub-con {
+  flex-wrap: wrap;
+}
+/* section 3 */
+#section-3 .pro-ban,
+.pro-details {
+  width: 100%;
+  height: 42rem;
+}
+#section-3 .flex {
+  flex-wrap: wrap;
+}
+#section-3 .pro-details {
+  padding: 0 2rem;
+}
+/* section 4 */
+.item {
+  width: 48%;
+  margin-bottom: 2.5rem;
+}
+.items {
+  width: 48%;
+}
+/* section 5 */
+#section-5 .watch {
+  width: 48%;
+  margin-bottom: 2.7rem;
+}
+/* section 7 */
+#section-7 .quetion {
+  width: 100%;
+}
+/* footer */
+footer .main {
+  flex-wrap: wrap;
+}
+footer .email {
+  width: 50%;
+}
+footer .about {
+  width: 50%;
+  margin-bottom: 4rem;
+}
+footer .follow-us {
+  width: 100%;
+}
